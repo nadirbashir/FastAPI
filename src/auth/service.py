@@ -12,6 +12,7 @@ from datetime import datetime, timedelta, timezone
 from ..exceptions import AuthenticationError    
 
 
+#should be kept secret in .env and not hardcoded
 SECRET_KEY = '197b2c37c391bed93fe80344fe73b806947a65e36206e05a1a23c2fa12702fe3'
 ALGORITHM = 'HS256'
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
